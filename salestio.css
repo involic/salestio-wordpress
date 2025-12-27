@@ -1,0 +1,36 @@
+#salestio-container {
+    max-width: 960px;
+}
+
+.salestio-card {
+    padding: 20px;
+}
+
+.salestio-hero {
+    display: block;
+    max-width: 240px;
+    margin: 0 0 16px;
+}
+
+.salestio-actions {
+    margin-top: 12px;
+}
+
+.salestio-note {
+    color: #646970;
+    margin-top: 12px;
+}
+
+.salestio-popup-help {
+    margin-left: 12px;
+    color: #646970;
+}
+
+.salestio-option {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.salestio-option input {
+    margin-right: 6px;
+}

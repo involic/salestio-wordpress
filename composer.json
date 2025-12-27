@@ -1,0 +1,46 @@
+{
+  "name": "salestio/salestio",
+  "description": "Amazon & Ebay Integration for WooCommerce",
+  "homepage": "https://salest.io/",
+  "version": "1.1.0",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.2"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "platform": {
+      "php": "7.2"
+    },
+    "allow-plugins": {
+      "automattic/jetpack-autoloader": true,
+      "composer/installers": true,
+      "bamarni/composer-bin-plugin": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "autoload-dev": {
+  },
+  "scripts": {
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/WordPress/WordPress-Coding-Standards.git"
+    }
+  ],
+  "require-dev": {
+    "squizlabs/php_codesniffer": "*",
+    "woocommerce/woocommerce-sniffs": "^0.1.3",
+    "wp-coding-standards/wpcs": "^2.3"
+  }
+}
